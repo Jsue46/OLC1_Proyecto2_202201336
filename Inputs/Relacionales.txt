@@ -1,0 +1,80 @@
+// Pruebas de operadores relacionales con enteros
+imprimir "=== PRUEBAS CON ENTEROS ==="
+ingresar a como entero con valor 10
+ingresar b como entero con valor 5
+ingresar c como entero con valor 10
+
+imprimir  a == b  // Falso
+imprimir  a == c  // Verdadero
+imprimir  a != b  // Verdadero
+imprimir  a != c  // Falso
+imprimir  a < b    // Falso
+imprimir  b < a    // Verdadero
+imprimir  a <= b  // Falso
+imprimir  a <= c  // Verdadero
+imprimir  a > b    // Verdadero
+imprimir  a >= c  // Verdadero
+
+// Pruebas de operadores relacionales con decimales
+imprimir "\n=== PRUEBAS CON DECIMALES ==="
+ingresar d como decimal con valor 10.5
+ingresar e como decimal con valor 5.5
+
+imprimir  d == e  // Falso
+imprimir  d != e  // Verdadero
+imprimir  d < e    // Falso
+imprimir  e < d    // Verdadero
+imprimir  d <= e  // Falso
+imprimir  d > e    // Verdadero
+imprimir  d >= e  // Verdadero
+
+// Pruebas de operadores relacionales con caracteres
+imprimir "\n=== PRUEBAS CON CARACTERES ==="
+ingresar f como caracter con valor 'A'
+ingresar g como caracter con valor 'B'
+ingresar h como caracter con valor 'A'
+
+imprimir f == g  // Falso
+imprimir f == h  // Verdadero
+imprimir f != g  // Verdadero
+imprimir f < g    // Verdadero A < B en ASCII
+imprimir g > f    // Verdadero B > A en ASCII
+imprimir f <= h  // Verdadero
+imprimir f >= h  // Verdadero
+
+// Pruebas de operadores relacionales con cadenas
+imprimir "\n=== PRUEBAS CON CADENAS ==="
+ingresar str1 como cadena con valor "hola"
+ingresar str2 como cadena con valor "mundo"
+ingresar str3 como cadena con valor "hola"
+
+imprimir str1 == str2  // Falso
+imprimir str1 == str3  // Verdadero
+imprimir str1 != str2  // Verdadero
+
+// Pruebas de operadores relacionales con booleanos
+imprimir "\n=== PRUEBAS CON BOOLEANOS ==="
+ingresar bool1 como booleano con valor verdadero
+ingresar bool2 como booleano con valor falso
+
+imprimir bool1 == bool2  // Falso
+imprimir bool1 != bool2  // Verdadero
+
+// Pruebas de operadores relacionales con tipos mixtos
+imprimir "\n=== PRUEBAS CON TIPOS MIXTOS ==="
+imprimir a == f  // Comparación entre entero y caracter
+imprimir d == a  // Comparación entre decimal y entero
+imprimir f == 65  // Comparación entre caracter y entero 65 es 'A' en ASCII
+
+// Pruebas con valores nulos
+imprimir "\n=== PRUEBAS CON NULOS ==="
+ingresar valorNulo como entero
+imprimir valorNulo == 0  // Verdadero valor por defecto
+
+//Probando Operaciones Logicas.
+imprimir "Operaciones Logicas"
+imprimir a == b || a == c  //Verdadero
+imprimir a != b && a != b // Verdadero
+imprimir a <= b && b < a  // Falso
+imprimir ! a >= c  // Falso
+imprimir ! a <= b  // Verdadero
